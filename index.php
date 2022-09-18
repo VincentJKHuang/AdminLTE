@@ -90,24 +90,6 @@ require_once 'scripts/pi-hole/php/gravity.php';
         </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-md-12">
-        <div class="box" id="clients">
-            <div class="box-header with-border">
-                <h3 class="box-title">Client activity over last <span class="maxlogage-interval">24</span> hours</h3>
-            </div>
-            <div class="box-body">
-                <div class="chart">
-                    <canvas id="clientsChart" width="800" height="140" class="extratooltipcanvas no-user-select"></canvas>
-                </div>
-            </div>
-            <div class="overlay">
-                <i class="fa fa-sync fa-spin"></i>
-            </div>
-            <!-- /.box-body -->
-        </div>
-    </div>
-</div>
 
 <div class="row">
     <div class="col-md-6">
